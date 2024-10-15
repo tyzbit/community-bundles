@@ -3,7 +3,7 @@ FROM alpine as builder
 ARG TARGETARCH
 
 # renovate: datasource=github-releases depName=k8snetworkplumbingwg/multus-cni extractVersion=^v(?<version>.*)$
-ARG MULTUS_VERSION=4.0.2
+ARG MULTUS_VERSION=4.1.3
 
 # renovate: datasource=github-releases depName=containernetworking/plugins extractVersion=^v(?<version>.*)$
 ARG PLUGINS_VERSION=1.3.0
