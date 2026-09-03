@@ -1,6 +1,6 @@
 FROM alpine AS build
 # renovate: datasource=github-releases depName=mudler/edgevpn
-ENV VERSION=0.30.2
+ENV VERSION=0.35.5
 ARG TARGETARCH
 
 RUN if [[ "$TARGETARCH" = "amd64" ]]; then \
